@@ -1,0 +1,2 @@
+recursive-include pic_sure_jupyter_widgets/static *.*
+include pic-sure-jupyter-widgets.json
