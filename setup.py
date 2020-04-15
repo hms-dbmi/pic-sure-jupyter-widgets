@@ -22,7 +22,7 @@ log.set_verbosity(log.DEBUG)
 log.info('setup.py entered')
 log.info('$PATH=%s' % os.environ['PATH'])
 
-LONG_DESCRIPTION = 'A Custom Jupyter Widget Library'
+LONG_DESCRIPTION = 'PIC-SURE Jupyter Widget Library'
 
 def js_prerelease(command, strict=False):
     """decorator for building minified js/css prior to another command"""
@@ -127,7 +127,7 @@ with open(os.path.join(here, 'pic_sure_jupyter_widgets', '_version.py')) as f:
 setup_args = {
     'name': 'pic_sure_jupyter_widgets',
     'version': version_ns['__version__'],
-    'description': 'A Custom Jupyter Widget Library',
+    'description': 'PIC-SURE Jupyter Widget Library',
     'long_description': LONG_DESCRIPTION,
     'include_package_data': True,
     'data_files': [

@@ -25,8 +25,8 @@ var LoginModel = widgets.DOMWidgetModel.extend({
         _view_name : 'LoginView',
         _model_module : 'pic-sure-jupyter-widgets',
         _view_module : 'pic-sure-jupyter-widgets',
-        _model_module_version : '1.1.0',
-        _view_module_version : '1.1.0',
+        _model_module_version : '1.1.1',
+        _view_module_version : '1.1.1',
         endpoint: "",
         token: "",
         resourceUUID: ""
