@@ -10,7 +10,8 @@ function AttachDraggableCredentials() {
     myImg.draggable = true;
     myImg.height = 50;
     myImg.width = 50;
-    myImg.style = "position:absolute;top:25px;right:8px;border:6px solid #000;border-radius:5px";
+	myImg.title = "Drag and drop this on Jupyter Login widget."
+    myImg.style = "position:absolute;top:25px;right:8px;border:6px solid #000;border-radius:5px:cursor:grab";
     document.body.appendChild(myImg);
 
     // deal with assembling all the data into our drop package
@@ -25,6 +26,4 @@ function AttachDraggableCredentials() {
         ev.dataTransfer.dropEffect = "link"
     }
 }
-
-
 
