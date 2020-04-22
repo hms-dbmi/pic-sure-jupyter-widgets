@@ -10,3 +10,4 @@ pic_sure_jupyter_widgets/static/
 
 # OS X
 .DS_Store
+.idea
